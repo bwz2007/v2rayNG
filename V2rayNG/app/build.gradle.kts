@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace = "com.v2ray.ang"
+    namespace = "com.hicorenational.antifraud"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.v2ray.ang"
+        applicationId = "com.hicorenational.antifraud"
         minSdk = 24
         targetSdk = 36
         versionCode = 720
-        versionName = "2.1.0"
+        versionName = "26.0417.1"
         multiDexEnabled = true
 
         val abiFilterList = (properties["ABI_FILTERS"] as? String)?.split(';')
